@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+   <head>
+     <title>Form Test</title>
+   </head>
+
+   <body bgcolor="Gray">
+
+   <body>
+     <h1>Fill up the given information to be a member of Swastik College:</h1><hr>
+ 
+        <form action=""name=""method="">
+
+           <tr>
+              <td>Enter your name:/td>
+           </tr>
+             First name:<input type="text" name=firstname">
+
+           Name:<input type="text"placeholder="Enter Name"name=""id=""><br>
+           Date of Birth:<input type="password"placeholder="Enter Password"name=""id=""<br>
+       <br>Marital Status:
+            <input type="radio"name="mstatus"id="mstatus"value="married">Married
+            <input type="radio"name="mstatus"id="mstatus"value="unmarried">Unmarried</br>
+        Select your Favourite game:<br>
+            <input type="checkbox" name="" id="">Football<br>
+            <input type="checkbox" name="" id="">Basketball<br>
+            <input type="checkbox" name="" id="">Volleyball<br>
+            <input type="checkbox" name="" id="">Cricket<br>
+	    <input type="checkbox" name="" id="">Badminton<br>
+    
+        Select Your Country:
+            <select name="country">
+                <option>Select Your Country...</option>
+                          <option>Nepal</option>
+                          <option>China</option>
+                          <option>Japan</option>
+                          <option>England</option>
+                          <option>America</option>
+            </select><br>
+
+       Upload Your Photo:<input type="file"><br>
+
+        Your Comment:<br>
+            <textarea cols="35"rows="5">
+            </textarea><br>
+                 <input type="submit" Value="Login">
+                 <input type="submit" Value="Cancel">
+
+    </form>
+  </body>
+</html>
